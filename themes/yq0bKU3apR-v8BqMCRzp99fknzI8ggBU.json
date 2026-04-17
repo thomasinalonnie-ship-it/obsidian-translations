@@ -1,0 +1,2209 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Primary",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supportedVersions": "2.10.0",
+        "title": "Primary",
+        "description": "Primary Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Primary Theme Settings",
+            "target": "Primary Theme Settings"
+        },
+        {
+            "type": "title",
+            "source": "How To Use",
+            "target": "How To Use"
+        },
+        {
+            "type": "markdown",
+            "source": "true",
+            "target": "true"
+        },
+        {
+            "type": "description",
+            "source": "📚 Visit the [Full Guide](https://primary-theme.github.io/) for the complete documentation including theme features, font guides, customization guide and more",
+            "target": "📚 Visit the [Full Guide](https://primary-theme.github.io/) for the complete documentation including theme features, font guides, customization guide and more"
+        },
+        {
+            "type": "description",
+            "source": "🎯 Check out the [Roadmap](https://git.new/primary/project-tracker) to get a view of Primary's Development",
+            "target": "🎯 Check out the [Roadmap](https://git.new/primary/project-tracker) to get a view of Primary's Development"
+        },
+        {
+            "type": "description",
+            "source": "📮 Subscribe to [Primary Theme Updates](https://primarytheme.substack.com/subscribe) to get notified of Primary updates, new features, and goodies right in your inbox!",
+            "target": "📮 Subscribe to [Primary Theme Updates](https://primarytheme.substack.com/subscribe) to get notified of Primary updates, new features, and goodies right in your inbox!"
+        },
+        {
+            "type": "title",
+            "source": "Interface",
+            "target": "Interface"
+        },
+        {
+            "type": "title",
+            "source": "Typography",
+            "target": "Typography"
+        },
+        {
+            "type": "description",
+            "source": "⚙️ To change fonts, go to Settings → Appearance → Font, and select the font you want to use (must be installed in your system).",
+            "target": "⚙️ To change fonts, go to Settings → Appearance → Font, and select the font you want to use (must be installed in your system)."
+        },
+        {
+            "type": "description",
+            "source": "🌿 Primary v1.0 user? Want to use the original Karla font? Read the [Karla Font Guide](https://primary-theme.github.io/guides/font-recommendations/karla/) to learn how to get back into using it.",
+            "target": "🌿 Primary v1.0 user? Want to use the original Karla font? Read the [Karla Font Guide](https://primary-theme.github.io/guides/font-recommendations/karla/) to learn how to get back into using it."
+        },
+        {
+            "type": "description",
+            "source": "🌸 Visit the [Font Recommendation Guide](https://primary-theme.github.io/guides/font-recommendations/overview/) for more curated font options for Primary! The guide includes a setup tutorial.",
+            "target": "🌸 Visit the [Font Recommendation Guide](https://primary-theme.github.io/guides/font-recommendations/overview/) for more curated font options for Primary! The guide includes a setup tutorial."
+        },
+        {
+            "type": "title",
+            "source": "Font Features",
+            "target": "Font Features"
+        },
+        {
+            "type": "description",
+            "source": "Some fonts offer stylistic alternates to glyphs of their fonts. This can be activated via a CSS property called font feature settings. `1` means \"feature is turned on\", and `0` means \"feature is turned off\".",
+            "target": "Some fonts offer stylistic alternates to glyphs of their fonts. This can be activated via a CSS property called font feature settings. `1` means \"feature is turned on\", and `0` means \"feature is turned off\"."
+        },
+        {
+            "type": "description",
+            "source": "This setting is quite technical so if you aren't sure how to use it please refer to the [MDN guide on font-feature-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings). <br><br> Not all fonts offer the same stylistic alternates so it's best to check out your font's respective manuals or specifications.",
+            "target": "This setting is quite technical so if you aren't sure how to use it please refer to the [MDN guide on font-feature-settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings). <br><br> Not all fonts offer the same stylistic alternates so it's best to check out your font's respective manuals or specifications."
+        },
+        {
+            "type": "title",
+            "source": "Interface Font's Feature Settings",
+            "target": "Interface Font's Feature Settings"
+        },
+        {
+            "type": "title",
+            "source": "Text Font's Feature Settings",
+            "target": "Text Font's Feature Settings"
+        },
+        {
+            "type": "title",
+            "source": "Monospace Font's Feature Settings",
+            "target": "Monospace Font's Feature Settings"
+        },
+        {
+            "type": "title",
+            "source": "Interface Font Sizes",
+            "target": "Interface Font Sizes"
+        },
+        {
+            "type": "description",
+            "source": "This section targets interface font sizes, meaning text that is not in the markdown editor. To change the size of the editor text, please use Obsidian's built-in setting. You can find this under Settings → Appearance → Font Size.",
+            "target": "This section targets interface font sizes, meaning text that is not in the markdown editor. To change the size of the editor text, please use Obsidian's built-in setting. You can find this under Settings → Appearance → Font Size."
+        },
+        {
+            "type": "title",
+            "source": "Smallest UI Font Size",
+            "target": "Smallest UI Font Size"
+        },
+        {
+            "type": "description",
+            "source": "Acceptable font size unit is only in px.",
+            "target": "Acceptable font size unit is only in px."
+        },
+        {
+            "type": "title",
+            "source": "Smaller UI Font Size",
+            "target": "Smaller UI Font Size"
+        },
+        {
+            "type": "title",
+            "source": "Small UI Font Size",
+            "target": "Small UI Font Size"
+        },
+        {
+            "type": "title",
+            "source": "Medium UI Font Size",
+            "target": "Medium UI Font Size"
+        },
+        {
+            "type": "title",
+            "source": "Large UI Font Size",
+            "target": "Large UI Font Size"
+        },
+        {
+            "type": "title",
+            "source": "Font Weight",
+            "target": "Font Weight"
+        },
+        {
+            "type": "description",
+            "source": "☝️ By default with Inter, the font is a little bit thin. To increase readability, I increased the base font weight for each category by 50. If you decide to use your own font, the options below are good to use if you find the font you're using a bit too thick. You can bring them back down by 50 to use the original defaults weights.",
+            "target": "☝️ By default with Inter, the font is a little bit thin. To increase readability, I increased the base font weight for each category by 50. If you decide to use your own font, the options below are good to use if you find the font you're using a bit too thick. You can bring them back down by 50 to use the original defaults weights."
+        },
+        {
+            "type": "title",
+            "source": "Thin Font Weight",
+            "target": "Thin Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Extralight Font Weight",
+            "target": "Extralight Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Light Font Weight",
+            "target": "Light Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Normal Font Weight",
+            "target": "Normal Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Medium Font Weight",
+            "target": "Medium Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Semibold Font Weight",
+            "target": "Semibold Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Bold Font Weight",
+            "target": "Bold Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Extrabold Font Weight",
+            "target": "Extrabold Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Black Font Weight",
+            "target": "Black Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Bold Modifier",
+            "target": "Bold Modifier"
+        },
+        {
+            "type": "description",
+            "source": "This is an addend to Normal Font Weight for certain interface components that Obsidian wanted to turn into bold.",
+            "target": "This is an addend to Normal Font Weight for certain interface components that Obsidian wanted to turn into bold."
+        },
+        {
+            "type": "title",
+            "source": "Animations and Effects",
+            "target": "Animations and Effects"
+        },
+        {
+            "type": "title",
+            "source": "Remove Jumpy Tab Animations",
+            "target": "Remove Jumpy Tab Animations"
+        },
+        {
+            "type": "title",
+            "source": "Remove Popup and Pop Down Animations",
+            "target": "Remove Popup and Pop Down Animations"
+        },
+        {
+            "type": "title",
+            "source": "Remove Popup Background Blur",
+            "target": "Remove Popup Background Blur"
+        },
+        {
+            "type": "description",
+            "source": "This removes the background blur when opening the Settings, Command Palette, Quick Switcher, and other pop up boxes.This is a good option to toggle on if you are experiencing unreconcilable buggy-ness and visual issues with Primary. You may also toggle this on if you don't prefer the background blur, or just need some performance boost (especially for bigger vaults).",
+            "target": "This removes the background blur when opening the Settings, Command Palette, Quick Switcher, and other pop up boxes.This is a good option to toggle on if you are experiencing unreconcilable buggy-ness and visual issues with Primary. You may also toggle this on if you don't prefer the background blur, or just need some performance boost (especially for bigger vaults)."
+        },
+        {
+            "type": "title",
+            "source": "Ribbon",
+            "target": "Ribbon"
+        },
+        {
+            "type": "title",
+            "source": "Ribbon Style",
+            "target": "Ribbon Style"
+        },
+        {
+            "type": "label",
+            "source": "Docked",
+            "target": "Docked"
+        },
+        {
+            "type": "label",
+            "source": "Slide Out on Hover",
+            "target": "Slide Out on Hover"
+        },
+        {
+            "type": "title",
+            "source": "Ribbon Background Color",
+            "target": "Ribbon Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Ribbon Border Width",
+            "target": "Ribbon Border Width"
+        },
+        {
+            "type": "description",
+            "source": "If you want to remove the border, set this to 0px.",
+            "target": "If you want to remove the border, set this to 0px."
+        },
+        {
+            "type": "title",
+            "source": "Ribbon Border Color",
+            "target": "Ribbon Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Ribbon Top Right Border Roundness",
+            "target": "Ribbon Top Right Border Roundness"
+        },
+        {
+            "type": "description",
+            "source": "The roundness value's order goes top left, top right, bottom right, bottom left.",
+            "target": "The roundness value's order goes top left, top right, bottom right, bottom left."
+        },
+        {
+            "type": "title",
+            "source": "Ribbon Width",
+            "target": "Ribbon Width"
+        },
+        {
+            "type": "description",
+            "source": "Adjust your ribbon's width. Unit is in px only.",
+            "target": "Adjust your ribbon's width. Unit is in px only."
+        },
+        {
+            "type": "title",
+            "source": "Ribbon Icon Size",
+            "target": "Ribbon Icon Size"
+        },
+        {
+            "type": "description",
+            "source": "Adjust your ribbon's icon size. Unit is in px only.",
+            "target": "Adjust your ribbon's icon size. Unit is in px only."
+        },
+        {
+            "type": "title",
+            "source": "Ribbon Icons Spacing",
+            "target": "Ribbon Icons Spacing"
+        },
+        {
+            "type": "description",
+            "source": "Adjust the top and bottom space between your ribbon's icons.",
+            "target": "Adjust the top and bottom space between your ribbon's icons."
+        },
+        {
+            "type": "title",
+            "source": "Editor",
+            "target": "Editor"
+        },
+        {
+            "type": "title",
+            "source": "Editor Background Type",
+            "target": "Editor Background Type"
+        },
+        {
+            "type": "label",
+            "source": "Plain Color",
+            "target": "Plain Color"
+        },
+        {
+            "type": "label",
+            "source": "Line Grid",
+            "target": "Line Grid"
+        },
+        {
+            "type": "label",
+            "source": "Dot Grid",
+            "target": "Dot Grid"
+        },
+        {
+            "type": "title",
+            "source": "Editor Background Color",
+            "target": "Editor Background Color"
+        },
+        {
+            "type": "description",
+            "source": "Sets the size of the grid, dotted grid, or image",
+            "target": "Sets the size of the grid, dotted grid, or image"
+        },
+        {
+            "type": "title",
+            "source": "Editor Background Size for Pattern Background",
+            "target": "Editor Background Size for Pattern Background"
+        },
+        {
+            "type": "description",
+            "source": "Sets the size of the line grid or dot grid",
+            "target": "Sets the size of the line grid or dot grid"
+        },
+        {
+            "type": "title",
+            "source": "Editor Background's Pattern Color",
+            "target": "Editor Background's Pattern Color"
+        },
+        {
+            "type": "description",
+            "source": "Only available for line grid or dot grid background types. Sets the color of the line grid, dot grid. For line grid, it will take the color input and reduce it to 30% opacity.",
+            "target": "Only available for line grid or dot grid background types. Sets the color of the line grid, dot grid. For line grid, it will take the color input and reduce it to 30% opacity."
+        },
+        {
+            "type": "title",
+            "source": "Editor Border Width",
+            "target": "Editor Border Width"
+        },
+        {
+            "type": "title",
+            "source": "Editor Border Color",
+            "target": "Editor Border Color"
+        },
+        {
+            "type": "title",
+            "source": "File Header",
+            "target": "File Header"
+        },
+        {
+            "type": "label",
+            "source": "Always Show",
+            "target": "Always Show"
+        },
+        {
+            "type": "label",
+            "source": "Hide Full File Header (Shows when Hovered)",
+            "target": "Hide Full File Header (Shows when Hovered)"
+        },
+        {
+            "type": "label",
+            "source": "Hide Title on File Header (Shows when Hovered)",
+            "target": "Hide Title on File Header (Shows when Hovered)"
+        },
+        {
+            "type": "title",
+            "source": "File Header Border Width",
+            "target": "File Header Border Width"
+        },
+        {
+            "type": "title",
+            "source": "File Header Border Color",
+            "target": "File Header Border Color"
+        },
+        {
+            "type": "title",
+            "source": "File Readable Line Width",
+            "target": "File Readable Line Width"
+        },
+        {
+            "type": "description",
+            "source": "You may use any CSS units like em, rem, ch, px.",
+            "target": "You may use any CSS units like em, rem, ch, px."
+        },
+        {
+            "type": "title",
+            "source": "Gutter Number Text Color",
+            "target": "Gutter Number Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Active Line Gutter Number Text Color",
+            "target": "Active Line Gutter Number Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Toggle Active Line Highlighting",
+            "target": "Toggle Active Line Highlighting"
+        },
+        {
+            "type": "description",
+            "source": "Adds background color to active line.",
+            "target": "Adds background color to active line."
+        },
+        {
+            "type": "title",
+            "source": "Active Line Background Color",
+            "target": "Active Line Background Color"
+        },
+        {
+            "type": "description",
+            "source": "Only works when Active Line Highlighting is turned on.",
+            "target": "Only works when Active Line Highlighting is turned on."
+        },
+        {
+            "type": "title",
+            "source": "Status Bar",
+            "target": "Status Bar"
+        },
+        {
+            "type": "title",
+            "source": "Status Bar Style",
+            "target": "Status Bar Style"
+        },
+        {
+            "type": "label",
+            "source": "On Top",
+            "target": "On Top"
+        },
+        {
+            "type": "label",
+            "source": "Visible Full Length",
+            "target": "Visible Full Length"
+        },
+        {
+            "type": "label",
+            "source": "Slide Up Full Length",
+            "target": "Slide Up Full Length"
+        },
+        {
+            "type": "label",
+            "source": "Slide Out",
+            "target": "Slide Out"
+        },
+        {
+            "type": "label",
+            "source": "Floating",
+            "target": "Floating"
+        },
+        {
+            "type": "title",
+            "source": "Status Bar Item Visibility",
+            "target": "Status Bar Item Visibility"
+        },
+        {
+            "type": "label",
+            "source": "Show Everything",
+            "target": "Show Everything"
+        },
+        {
+            "type": "label",
+            "source": "Sync Only",
+            "target": "Sync Only"
+        },
+        {
+            "type": "label",
+            "source": "Word Count Only",
+            "target": "Word Count Only"
+        },
+        {
+            "type": "title",
+            "source": "Status Bar Background",
+            "target": "Status Bar Background"
+        },
+        {
+            "type": "title",
+            "source": "Status Bar Border Width",
+            "target": "Status Bar Border Width"
+        },
+        {
+            "type": "description",
+            "source": "Set this to 0px if you wish to remove the status bar's border. The border width value's order goes top, right, bottom, left. The default value corresponds the roundness for the On Top style. Applying 1 value means that value is applied to all sides.",
+            "target": "Set this to 0px if you wish to remove the status bar's border. The border width value's order goes top, right, bottom, left. The default value corresponds the roundness for the On Top style. Applying 1 value means that value is applied to all sides."
+        },
+        {
+            "type": "title",
+            "source": "Status Bar Border Roundness",
+            "target": "Status Bar Border Roundness"
+        },
+        {
+            "type": "description",
+            "source": "The roundness value's order goes top left, top right, bottom right, bottom left. The default value corresponds the roundness for the On Top style. Applying 1 value means that value is applied to all corners.",
+            "target": "The roundness value's order goes top left, top right, bottom right, bottom left. The default value corresponds the roundness for the On Top style. Applying 1 value means that value is applied to all corners."
+        },
+        {
+            "type": "title",
+            "source": "Floating Style - Status Bar Opacity at Rest",
+            "target": "Floating Style - Status Bar Opacity at Rest"
+        },
+        {
+            "type": "description",
+            "source": "Sets the opacity of the status bar at rest if Floating Status Bar style is chosen. Range goes from 0 being transparent, until 1 being completely visible.",
+            "target": "Sets the opacity of the status bar at rest if Floating Status Bar style is chosen. Range goes from 0 being transparent, until 1 being completely visible."
+        },
+        {
+            "type": "title",
+            "source": "Floating Style - Status Bar Opacity on Hover",
+            "target": "Floating Style - Status Bar Opacity on Hover"
+        },
+        {
+            "type": "description",
+            "source": "Sets the opacity of the status bar when hovering it if Floating Status Bar style is chosen. Range goes from 0 being transparent, until 1 being completely visible.",
+            "target": "Sets the opacity of the status bar when hovering it if Floating Status Bar style is chosen. Range goes from 0 being transparent, until 1 being completely visible."
+        },
+        {
+            "type": "title",
+            "source": "Components",
+            "target": "Components"
+        },
+        {
+            "type": "title",
+            "source": "Progress",
+            "target": "Progress"
+        },
+        {
+            "type": "title",
+            "source": "Progress Bar Width",
+            "target": "Progress Bar Width"
+        },
+        {
+            "type": "title",
+            "source": "Progress Bar Height",
+            "target": "Progress Bar Height"
+        },
+        {
+            "type": "title",
+            "source": "Progress Background Color",
+            "target": "Progress Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Progress Border Widths",
+            "target": "Progress Border Widths"
+        },
+        {
+            "type": "description",
+            "source": "Applied to the background bar and the value bar.",
+            "target": "Applied to the background bar and the value bar."
+        },
+        {
+            "type": "title",
+            "source": "Progress Bar Border Color",
+            "target": "Progress Bar Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Progress Inner Value Roundness",
+            "target": "Progress Inner Value Roundness"
+        },
+        {
+            "type": "description",
+            "source": "Takes in the progress bar's height by default, creating rounded corners. If you want straight corners put 0px.",
+            "target": "Takes in the progress bar's height by default, creating rounded corners. If you want straight corners put 0px."
+        },
+        {
+            "type": "title",
+            "source": "Progress Inner Value Border Color",
+            "target": "Progress Inner Value Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Progress Color 1",
+            "target": "Progress Color 1"
+        },
+        {
+            "type": "description",
+            "source": "Color for values 0% to 39%",
+            "target": "Color for values 0% to 39%"
+        },
+        {
+            "type": "description",
+            "source": "Color for values 40% to 59%",
+            "target": "Color for values 40% to 59%"
+        },
+        {
+            "type": "description",
+            "source": "Color for values 60% to 79%",
+            "target": "Color for values 60% to 79%"
+        },
+        {
+            "type": "description",
+            "source": "Color for values 80% to 99%",
+            "target": "Color for values 80% to 99%"
+        },
+        {
+            "type": "description",
+            "source": "If you want the color for progress bars valued at 100% to be a solid color, set the same color for each of the three below.",
+            "target": "If you want the color for progress bars valued at 100% to be a solid color, set the same color for each of the three below."
+        },
+        {
+            "type": "title",
+            "source": "Progress 100% Leftmost Color",
+            "target": "Progress 100% Leftmost Color"
+        },
+        {
+            "type": "description",
+            "source": "Leftmost color in the gradient for value 100%.",
+            "target": "Leftmost color in the gradient for value 100%."
+        },
+        {
+            "type": "title",
+            "source": "Progress 100% Middle Color",
+            "target": "Progress 100% Middle Color"
+        },
+        {
+            "type": "description",
+            "source": "Middle color in the gradient for value 100%",
+            "target": "Middle color in the gradient for value 100%"
+        },
+        {
+            "type": "title",
+            "source": "Progress 100% Rightmost Color",
+            "target": "Progress 100% Rightmost Color"
+        },
+        {
+            "type": "description",
+            "source": "Rightmost color in the gradient for value 100%",
+            "target": "Rightmost color in the gradient for value 100%"
+        },
+        {
+            "type": "title",
+            "source": "Notes and Files",
+            "target": "Notes and Files"
+        },
+        {
+            "type": "title",
+            "source": "Heading",
+            "target": "Heading"
+        },
+        {
+            "type": "description",
+            "source": "🎨 Visit the [Header Presets](https://primary-theme.github.io/guides/overview/) section in the Full Guide to import the Settings.",
+            "target": "🎨 Visit the [Header Presets](https://primary-theme.github.io/guides/overview/) section in the Full Guide to import the Settings."
+        },
+        {
+            "type": "description",
+            "source": "📖 The settings are based on CSS styling capabilities.",
+            "target": "📖 The settings are based on CSS styling capabilities."
+        },
+        {
+            "type": "title",
+            "source": "Heading 1",
+            "target": "Heading 1"
+        },
+        {
+            "type": "title",
+            "source": "Font Size",
+            "target": "Font Size"
+        },
+        {
+            "type": "title",
+            "source": "Font Family",
+            "target": "Font Family"
+        },
+        {
+            "type": "title",
+            "source": "Font Style",
+            "target": "Font Style"
+        },
+        {
+            "type": "title",
+            "source": "Text Alignment",
+            "target": "Text Alignment"
+        },
+        {
+            "type": "description",
+            "source": "You may choose from left, center, or right.",
+            "target": "You may choose from left, center, or right."
+        },
+        {
+            "type": "title",
+            "source": "Letter Spacing",
+            "target": "Letter Spacing"
+        },
+        {
+            "type": "title",
+            "source": "Text Transform",
+            "target": "Text Transform"
+        },
+        {
+            "type": "label",
+            "source": "Normal",
+            "target": "Normal"
+        },
+        {
+            "type": "label",
+            "source": "Capitalize 1st letter of Each Word",
+            "target": "Capitalize 1st letter of Each Word"
+        },
+        {
+            "type": "label",
+            "source": "All Lowercase",
+            "target": "All Lowercase"
+        },
+        {
+            "type": "label",
+            "source": "All Uppercase",
+            "target": "All Uppercase"
+        },
+        {
+            "type": "title",
+            "source": "Line Height",
+            "target": "Line Height"
+        },
+        {
+            "type": "description",
+            "source": "Sets the spacing between multiple lines of text of the heading. You can use units such as px, em, rem as well.",
+            "target": "Sets the spacing between multiple lines of text of the heading. You can use units such as px, em, rem as well."
+        },
+        {
+            "type": "title",
+            "source": "Color",
+            "target": "Color"
+        },
+        {
+            "type": "title",
+            "source": "Background Color",
+            "target": "Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Vertically Align Header to Center",
+            "target": "Vertically Align Header to Center"
+        },
+        {
+            "type": "description",
+            "source": "If you add a background color, Obsidian has some spacing at the top for each header. Turning this on will ensure the heading has equal spacing for both top and bottom, aligning it correctly.",
+            "target": "If you add a background color, Obsidian has some spacing at the top for each header. Turning this on will ensure the heading has equal spacing for both top and bottom, aligning it correctly."
+        },
+        {
+            "type": "title",
+            "source": "Border Thickness",
+            "target": "Border Thickness"
+        },
+        {
+            "type": "description",
+            "source": "You may also have different thickness per side in the order of top, right, bottom, right (i.e. 5px 2px 3px 4px).",
+            "target": "You may also have different thickness per side in the order of top, right, bottom, right (i.e. 5px 2px 3px 4px)."
+        },
+        {
+            "type": "title",
+            "source": "Border Style",
+            "target": "Border Style"
+        },
+        {
+            "type": "description",
+            "source": "You may choose from solid, dashed, dotted, and double. Same with thickness, you can have different styles per side.",
+            "target": "You may choose from solid, dashed, dotted, and double. Same with thickness, you can have different styles per side."
+        },
+        {
+            "type": "title",
+            "source": "Top Border Color",
+            "target": "Top Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Right Border Color",
+            "target": "Right Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Bottom Border Color",
+            "target": "Bottom Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Left Border Color",
+            "target": "Left Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Roundness",
+            "target": "Roundness"
+        },
+        {
+            "type": "description",
+            "source": "Add rounding to your headings. Best to use with a background color. If you'd like to have different roundness for each corner, you can set one in the order of top-left, top-right, bottom-right, bottom-left (i.e. 4px 2px 6px 3px).",
+            "target": "Add rounding to your headings. Best to use with a background color. If you'd like to have different roundness for each corner, you can set one in the order of top-left, top-right, bottom-right, bottom-left (i.e. 4px 2px 6px 3px)."
+        },
+        {
+            "type": "title",
+            "source": "Heading 2",
+            "target": "Heading 2"
+        },
+        {
+            "type": "title",
+            "source": "Heading 3",
+            "target": "Heading 3"
+        },
+        {
+            "type": "title",
+            "source": "Heading 4",
+            "target": "Heading 4"
+        },
+        {
+            "type": "title",
+            "source": "Heading 5",
+            "target": "Heading 5"
+        },
+        {
+            "type": "title",
+            "source": "Heading 6",
+            "target": "Heading 6"
+        },
+        {
+            "type": "title",
+            "source": "Emphasis",
+            "target": "Emphasis"
+        },
+        {
+            "type": "title",
+            "source": "Bold Text Color",
+            "target": "Bold Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Bold Text Weight",
+            "target": "Bold Text Weight"
+        },
+        {
+            "type": "title",
+            "source": "Italic Text Color",
+            "target": "Italic Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Strikethrough Text Color",
+            "target": "Strikethrough Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Underlined Text Color",
+            "target": "Underlined Text Color"
+        },
+        {
+            "type": "description",
+            "source": "Not natively supported in markdown, but underline can be activated with HTML.",
+            "target": "Not natively supported in markdown, but underline can be activated with HTML."
+        },
+        {
+            "type": "title",
+            "source": "Underlined Text Line Opacity",
+            "target": "Underlined Text Line Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Not natively supported in markdown, but underline can be activated with HTML. If used, you can set the underline's line opacity from 0% (no line visibility) to 100% (full color visibility). The color is taken from the underline's text color.",
+            "target": "Not natively supported in markdown, but underline can be activated with HTML. If used, you can set the underline's line opacity from 0% (no line visibility) to 100% (full color visibility). The color is taken from the underline's text color."
+        },
+        {
+            "type": "title",
+            "source": "Bold + Italic Text Color",
+            "target": "Bold + Italic Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Bold + Italic Text Weight",
+            "target": "Bold + Italic Text Weight"
+        },
+        {
+            "type": "title",
+            "source": "Bold + Italic + Strikethrough Text Color",
+            "target": "Bold + Italic + Strikethrough Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Highlight",
+            "target": "Highlight"
+        },
+        {
+            "type": "title",
+            "source": "Highlight Text Color",
+            "target": "Highlight Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Highlight Background Color",
+            "target": "Highlight Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Bold + Highlight Text Color",
+            "target": "Bold + Highlight Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Bold + Highlight Background Color",
+            "target": "Bold + Highlight Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Italic + Highlight Text Color",
+            "target": "Italic + Highlight Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Italic + Highlight Background Color",
+            "target": "Italic + Highlight Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Strikethrough + Highlight Text Color",
+            "target": "Strikethrough + Highlight Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Strikethrough + Highlight Background Color",
+            "target": "Strikethrough + Highlight Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Bold + Italic + Highlight Text Color",
+            "target": "Bold + Italic + Highlight Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Bold + Italic + Highlight Background Color",
+            "target": "Bold + Italic + Highlight Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Link",
+            "target": "Link"
+        },
+        {
+            "type": "title",
+            "source": "All Links Underline Offset",
+            "target": "All Links Underline Offset"
+        },
+        {
+            "type": "description",
+            "source": "This changes how far the underline is from the base of the link's letters.",
+            "target": "This changes how far the underline is from the base of the link's letters."
+        },
+        {
+            "type": "title",
+            "source": "All Links Underline Thickness",
+            "target": "All Links Underline Thickness"
+        },
+        {
+            "type": "title",
+            "source": "Link Underline Opacity",
+            "target": "Link Underline Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Set from 0% (no underline visibility) to 100% (full underline color visibility). Underline color inherits the Link's color.",
+            "target": "Set from 0% (no underline visibility) to 100% (full underline color visibility). Underline color inherits the Link's color."
+        },
+        {
+            "type": "title",
+            "source": "Remove Link Underline",
+            "target": "Remove Link Underline"
+        },
+        {
+            "type": "title",
+            "source": "Link Opacity when Pressed",
+            "target": "Link Opacity when Pressed"
+        },
+        {
+            "type": "title",
+            "source": "Non-markdown Links",
+            "target": "Non-markdown Links"
+        },
+        {
+            "type": "description",
+            "source": "Links that appear outside of notes",
+            "target": "Links that appear outside of notes"
+        },
+        {
+            "type": "title",
+            "source": "Non-markdown Links Color",
+            "target": "Non-markdown Links Color"
+        },
+        {
+            "type": "title",
+            "source": "Non-markdown Links Color when Hovered",
+            "target": "Non-markdown Links Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Unresolved Links",
+            "target": "Unresolved Links"
+        },
+        {
+            "type": "title",
+            "source": "Unresolved Links Color",
+            "target": "Unresolved Links Color"
+        },
+        {
+            "type": "title",
+            "source": "Unresolved Links Color when Hovered",
+            "target": "Unresolved Links Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Unresolved Link Opacity",
+            "target": "Unresolved Link Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Choose a number between 0 to 1.",
+            "target": "Choose a number between 0 to 1."
+        },
+        {
+            "type": "title",
+            "source": "Resolved Links",
+            "target": "Resolved Links"
+        },
+        {
+            "type": "title",
+            "source": "Resolved Links Color",
+            "target": "Resolved Links Color"
+        },
+        {
+            "type": "title",
+            "source": "Resolved Links Color when Hovered",
+            "target": "Resolved Links Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "External Links",
+            "target": "External Links"
+        },
+        {
+            "type": "title",
+            "source": "External Links Color",
+            "target": "External Links Color"
+        },
+        {
+            "type": "title",
+            "source": "External Links Color when Hovered",
+            "target": "External Links Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Blockquotes",
+            "target": "Blockquotes"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote Border Thickness",
+            "target": "Blockquote Border Thickness"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote Border Color",
+            "target": "Blockquote Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Blockquote Background Color",
+            "target": "Blockquote Background Color"
+        },
+        {
+            "type": "title",
+            "source": "List",
+            "target": "List"
+        },
+        {
+            "type": "title",
+            "source": "Reading Mode – Indentation Line Guide Indent",
+            "target": "Reading Mode – Indentation Line Guide Indent"
+        },
+        {
+            "type": "description",
+            "source": "Might require some customization if you change fonts. Unit is in em.",
+            "target": "Might require some customization if you change fonts. Unit is in em."
+        },
+        {
+            "type": "title",
+            "source": "Live Preview Mode – Indentation Line Guide Indent",
+            "target": "Live Preview Mode – Indentation Line Guide Indent"
+        },
+        {
+            "type": "title",
+            "source": "Source Mode – Indentation Line Guide Indent",
+            "target": "Source Mode – Indentation Line Guide Indent"
+        },
+        {
+            "type": "title",
+            "source": "List Marker Color",
+            "target": "List Marker Color"
+        },
+        {
+            "type": "title",
+            "source": "List Marker Color when Hovered",
+            "target": "List Marker Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "List Marker Color when Collapsed",
+            "target": "List Marker Color when Collapsed"
+        },
+        {
+            "type": "title",
+            "source": "Checkbox",
+            "target": "Checkbox"
+        },
+        {
+            "type": "title",
+            "source": "Unchecked Background Color",
+            "target": "Unchecked Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Checked Background Color",
+            "target": "Checked Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Checked Background Color when Hovered",
+            "target": "Checked Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Checked Item's Check Icon Color",
+            "target": "Checked Item's Check Icon Color"
+        },
+        {
+            "type": "title",
+            "source": "Checked Text Color",
+            "target": "Checked Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Checked Text Decoration (causes Strikethrough)",
+            "target": "Checked Text Decoration (causes Strikethrough)"
+        },
+        {
+            "type": "description",
+            "source": "Text decoration for checked items default at \"line-through\". If you would like to remove the strikethrough for checked items, put \"none\".",
+            "target": "Text decoration for checked items default at \"line-through\". If you would like to remove the strikethrough for checked items, put \"none\"."
+        },
+        {
+            "type": "title",
+            "source": "Checkbox Border Radius",
+            "target": "Checkbox Border Radius"
+        },
+        {
+            "type": "description",
+            "source": "Changes the roundness of the checkbox. You may use other units such as %, em, or rem. If you want circular checkboxes, put \"100%\". If you want squircle checkboxes, put \"5px\" or \"6px\". If you want square checkboxes, put \"2px\" or \"0\".",
+            "target": "Changes the roundness of the checkbox. You may use other units such as %, em, or rem. If you want circular checkboxes, put \"100%\". If you want squircle checkboxes, put \"5px\" or \"6px\". If you want square checkboxes, put \"2px\" or \"0\"."
+        },
+        {
+            "type": "title",
+            "source": "Checkbox Icons",
+            "target": "Checkbox Icons"
+        },
+        {
+            "type": "title",
+            "source": "In Progress [/] Color",
+            "target": "In Progress [/] Color"
+        },
+        {
+            "type": "title",
+            "source": "In Progress [/] Color when Hovered",
+            "target": "In Progress [/] Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Reschedule [>] Color",
+            "target": "Reschedule [>] Color"
+        },
+        {
+            "type": "title",
+            "source": "Schedule or Date [<] Color",
+            "target": "Schedule or Date [<] Color"
+        },
+        {
+            "type": "title",
+            "source": "Important [!] Color",
+            "target": "Important [!] Color"
+        },
+        {
+            "type": "title",
+            "source": "Important [!] Inner Icon Color",
+            "target": "Important [!] Inner Icon Color"
+        },
+        {
+            "type": "title",
+            "source": "Important [!] Border Radius",
+            "target": "Important [!] Border Radius"
+        },
+        {
+            "type": "description",
+            "source": "Changes the roundness of the checkbox. You may use other units such as px, em, or rem.",
+            "target": "Changes the roundness of the checkbox. You may use other units such as px, em, or rem."
+        },
+        {
+            "type": "title",
+            "source": "Cancelled [-] Color",
+            "target": "Cancelled [-] Color"
+        },
+        {
+            "type": "title",
+            "source": "Cancelled [-] Text Color",
+            "target": "Cancelled [-] Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Cancelled [-] Text Decoration (causes Strikethrough)",
+            "target": "Cancelled [-] Text Decoration (causes Strikethrough)"
+        },
+        {
+            "type": "description",
+            "source": "Text decoration for items marked [-] default at \"line-through\". If you would like to remove the strikethrough, put \"none\".",
+            "target": "Text decoration for items marked [-] default at \"line-through\". If you would like to remove the strikethrough, put \"none\"."
+        },
+        {
+            "type": "title",
+            "source": "Question [?] Color",
+            "target": "Question [?] Color"
+        },
+        {
+            "type": "title",
+            "source": "Question [?] Inner Icon Color",
+            "target": "Question [?] Inner Icon Color"
+        },
+        {
+            "type": "title",
+            "source": "Star [*] Color",
+            "target": "Star [*] Color"
+        },
+        {
+            "type": "title",
+            "source": "Star [*] Inner Icon Color",
+            "target": "Star [*] Inner Icon Color"
+        },
+        {
+            "type": "title",
+            "source": "Note [n] Color",
+            "target": "Note [n] Color"
+        },
+        {
+            "type": "title",
+            "source": "Location [l] Color",
+            "target": "Location [l] Color"
+        },
+        {
+            "type": "title",
+            "source": "Info [i] Color",
+            "target": "Info [i] Color"
+        },
+        {
+            "type": "title",
+            "source": "Info [i] Inner Icon Color",
+            "target": "Info [i] Inner Icon Color"
+        },
+        {
+            "type": "title",
+            "source": "Amount [S] Color",
+            "target": "Amount [S] Color"
+        },
+        {
+            "type": "title",
+            "source": "Amount [S] Inner Icon Color",
+            "target": "Amount [S] Inner Icon Color"
+        },
+        {
+            "type": "title",
+            "source": "Amount [S] Border Radius",
+            "target": "Amount [S] Border Radius"
+        },
+        {
+            "type": "title",
+            "source": "Quote [\"] Color",
+            "target": "Quote [\"] Color"
+        },
+        {
+            "type": "title",
+            "source": "Quote [\"] Inner Icon Color",
+            "target": "Quote [\"] Inner Icon Color"
+        },
+        {
+            "type": "title",
+            "source": "Idea [I] Color",
+            "target": "Idea [I] Color"
+        },
+        {
+            "type": "title",
+            "source": "Pro [p] Color",
+            "target": "Pro [p] Color"
+        },
+        {
+            "type": "title",
+            "source": "Con [c] Color",
+            "target": "Con [c] Color"
+        },
+        {
+            "type": "title",
+            "source": "Bookmark [b] Color",
+            "target": "Bookmark [b] Color"
+        },
+        {
+            "type": "title",
+            "source": "Up Trend Line [u] Color",
+            "target": "Up Trend Line [u] Color"
+        },
+        {
+            "type": "title",
+            "source": "Down Trend Line [d] Color",
+            "target": "Down Trend Line [d] Color"
+        },
+        {
+            "type": "title",
+            "source": "Rule or Law [r] Color",
+            "target": "Rule or Law [r] Color"
+        },
+        {
+            "type": "title",
+            "source": "Language or Translate [L] Color",
+            "target": "Language or Translate [L] Color"
+        },
+        {
+            "type": "title",
+            "source": "Time or Clock [t] Color",
+            "target": "Time or Clock [t] Color"
+        },
+        {
+            "type": "title",
+            "source": "Telephone [T] Color",
+            "target": "Telephone [T] Color"
+        },
+        {
+            "type": "title",
+            "source": "Media",
+            "target": "Media"
+        },
+        {
+            "type": "title",
+            "source": "Media Border Radius",
+            "target": "Media Border Radius"
+        },
+        {
+            "type": "description",
+            "source": "Set border radius size for media (images, audio, video)",
+            "target": "Set border radius size for media (images, audio, video)"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed",
+            "target": "Note Embed"
+        },
+        {
+            "type": "description",
+            "source": "🎨 Visit the [Note Embed Presets](https://primary-theme.github.io/presets/note-embed) in the Full Guide and check if you have any preferred ready-to-go style presets there, or if you want some inspiration on styling your embeds.",
+            "target": "🎨 Visit the [Note Embed Presets](https://primary-theme.github.io/presets/note-embed) in the Full Guide and check if you have any preferred ready-to-go style presets there, or if you want some inspiration on styling your embeds."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Max Height",
+            "target": "Note Embed Max Height"
+        },
+        {
+            "type": "description",
+            "source": "If you embed very long notes, you can change the max height so that each embed is scrollable. You can also set this by line-height using the unit rlh, or other CSS supported units. Recommended values are 20rlh and 40rlh.",
+            "target": "If you embed very long notes, you can change the max height so that each embed is scrollable. You can also set this by line-height using the unit rlh, or other CSS supported units. Recommended values are 20rlh and 40rlh."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Background Color",
+            "target": "Note Embed Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title",
+            "target": "Note Embed Title"
+        },
+        {
+            "type": "title",
+            "source": "Hide Note Embed Title",
+            "target": "Hide Note Embed Title"
+        },
+        {
+            "type": "description",
+            "source": "Hide the note's title when embedding notes.",
+            "target": "Hide the note's title when embedding notes."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Font Size",
+            "target": "Note Embed Title Font Size"
+        },
+        {
+            "type": "description",
+            "source": "You can use any CSS supported units. By default takes in the editor's font size based in the Obsidian Settings.",
+            "target": "You can use any CSS supported units. By default takes in the editor's font size based in the Obsidian Settings."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Font Weight",
+            "target": "Note Embed Title Font Weight"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Text Transform",
+            "target": "Note Embed Title Text Transform"
+        },
+        {
+            "type": "description",
+            "source": "Based on CSS. If you want the note embed title to be in all uppercase, put uppercase. Other options include capitalize and lowercase.",
+            "target": "Based on CSS. If you want the note embed title to be in all uppercase, put uppercase. Other options include capitalize and lowercase."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Letter Spacing",
+            "target": "Note Embed Title Letter Spacing"
+        },
+        {
+            "type": "description",
+            "source": "You can use numbers and CSS units.",
+            "target": "You can use numbers and CSS units."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Color",
+            "target": "Note Embed Title Color"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Bottom Border Width",
+            "target": "Note Embed Title Bottom Border Width"
+        },
+        {
+            "type": "description",
+            "source": "If you'd like to remove the border, set this to 0px.",
+            "target": "If you'd like to remove the border, set this to 0px."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Bottom Border Style",
+            "target": "Note Embed Title Bottom Border Style"
+        },
+        {
+            "type": "description",
+            "source": "Other options include dashed, dotted, and double.",
+            "target": "Other options include dashed, dotted, and double."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Border Color",
+            "target": "Note Embed Title Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Title Bottom Margin Size",
+            "target": "Note Embed Title Bottom Margin Size"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Border",
+            "target": "Note Embed Border"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Border Radius",
+            "target": "Note Embed Border Radius"
+        },
+        {
+            "type": "description",
+            "source": "You can also have different radiuses per side. Just write them in the CSS format of top left, top right, bottom right, bottom left. i.e. 2px, 8px, 12px, 0px.",
+            "target": "You can also have different radiuses per side. Just write them in the CSS format of top left, top right, bottom right, bottom left. i.e. 2px, 8px, 12px, 0px."
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Top Border",
+            "target": "Note Embed Top Border"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Top Border Width",
+            "target": "Note Embed Top Border Width"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Top Border Style",
+            "target": "Note Embed Top Border Style"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Top Border Color",
+            "target": "Note Embed Top Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Right Border",
+            "target": "Note Embed Right Border"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Right Border Width",
+            "target": "Note Embed Right Border Width"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Right Border Style",
+            "target": "Note Embed Right Border Style"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Right Border Color",
+            "target": "Note Embed Right Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Bottom Border",
+            "target": "Note Embed Bottom Border"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Bottom Border Width",
+            "target": "Note Embed Bottom Border Width"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Bottom Border Style",
+            "target": "Note Embed Bottom Border Style"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Bottom Border Color",
+            "target": "Note Embed Bottom Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Left Border",
+            "target": "Note Embed Left Border"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Left Border Width",
+            "target": "Note Embed Left Border Width"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Left Border Style",
+            "target": "Note Embed Left Border Style"
+        },
+        {
+            "type": "title",
+            "source": "Note Embed Left Border Color",
+            "target": "Note Embed Left Border Color"
+        },
+        {
+            "type": "title",
+            "source": "Canvas",
+            "target": "Canvas"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Dot Pattern Color",
+            "target": "Canvas Dot Pattern Color"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Card Label Color",
+            "target": "Canvas Card Label Color"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Color 1",
+            "target": "Canvas Color 1"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Color 2",
+            "target": "Canvas Color 2"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Color 3",
+            "target": "Canvas Color 3"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Color 4",
+            "target": "Canvas Color 4"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Color 5",
+            "target": "Canvas Color 5"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Color 6",
+            "target": "Canvas Color 6"
+        },
+        {
+            "type": "title",
+            "source": "Canvas Color 7",
+            "target": "Canvas Color 7"
+        },
+        {
+            "type": "title",
+            "source": "File Explorer & Bookmarks",
+            "target": "File Explorer & Bookmarks"
+        },
+        {
+            "type": "description",
+            "source": "🎨 Out of the box, the toggles below affect both file explorer and bookmark folders. If you'd like them to be different colors, head down over to the **Bookmarks** section, turn on `Custom Bookmarks Folders` and set your desired colors.",
+            "target": "🎨 Out of the box, the toggles below affect both file explorer and bookmark folders. If you'd like them to be different colors, head down over to the **Bookmarks** section, turn on `Custom Bookmarks Folders` and set your desired colors."
+        },
+        {
+            "type": "title",
+            "source": "Toggle using Folders as Collapse Indicators",
+            "target": "Toggle using Folders as Collapse Indicators"
+        },
+        {
+            "type": "description",
+            "source": "Use folders as collapse indicators instead of chevrons.",
+            "target": "Use folders as collapse indicators instead of chevrons."
+        },
+        {
+            "type": "title",
+            "source": "Toggle Colored Folder Text",
+            "target": "Toggle Colored Folder Text"
+        },
+        {
+            "type": "description",
+            "source": "Adds colors to the name text of the folder. When hovered, folder background is colored.",
+            "target": "Adds colors to the name text of the folder. When hovered, folder background is colored."
+        },
+        {
+            "type": "title",
+            "source": "Toggle Colored Folder Collapse Indicators",
+            "target": "Toggle Colored Folder Collapse Indicators"
+        },
+        {
+            "type": "description",
+            "source": "Adds color to the collapse indicators of the folders.",
+            "target": "Adds color to the collapse indicators of the folders."
+        },
+        {
+            "type": "title",
+            "source": "Toggle Colored Folder Backgrounds",
+            "target": "Toggle Colored Folder Backgrounds"
+        },
+        {
+            "type": "description",
+            "source": "Adds background color to folders.",
+            "target": "Adds background color to folders."
+        },
+        {
+            "type": "title",
+            "source": "Toggle Colored Folder Colored Indentation Guide",
+            "target": "Toggle Colored Folder Colored Indentation Guide"
+        },
+        {
+            "type": "description",
+            "source": "Colors folder's indentation guide based on parent folder's color.",
+            "target": "Colors folder's indentation guide based on parent folder's color."
+        },
+        {
+            "type": "title",
+            "source": "Toggle to Inherit Parent Folder Colors",
+            "target": "Toggle to Inherit Parent Folder Colors"
+        },
+        {
+            "type": "description",
+            "source": "The color cycles through up to 12 colors for both top level folders and subfolders by default. If you would like subfolders to be colored based on their top level folder colors, toggle this on.",
+            "target": "The color cycles through up to 12 colors for both top level folders and subfolders by default. If you would like subfolders to be colored based on their top level folder colors, toggle this on."
+        },
+        {
+            "type": "description",
+            "source": "🔄 Folder Colors are setup to cycle through up to 12 colors. At default, it cycles through only 6 colors that I've set up to repeat. Feel free to color them as you wish.",
+            "target": "🔄 Folder Colors are setup to cycle through up to 12 colors. At default, it cycles through only 6 colors that I've set up to repeat. Feel free to color them as you wish."
+        },
+        {
+            "type": "description",
+            "source": "🎨 The collapse indicator and indentation guide colors take in the color of the text color. If you don't want the hassle of changing these two other nuances, you can just change the text color. <br><br> Same goes for background color when hovered, you can focus on just changing the background color and leave the hovered color and it will adjust accordingly.",
+            "target": "🎨 The collapse indicator and indentation guide colors take in the color of the text color. If you don't want the hassle of changing these two other nuances, you can just change the text color. <br><br> Same goes for background color when hovered, you can focus on just changing the background color and leave the hovered color and it will adjust accordingly."
+        },
+        {
+            "type": "title",
+            "source": "Folder 1",
+            "target": "Folder 1"
+        },
+        {
+            "type": "title",
+            "source": "Folder 1 Text Color",
+            "target": "Folder 1 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 1 Collapse Indicator Color",
+            "target": "Folder 1 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 1 Background Color",
+            "target": "Folder 1 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 1 Background Color when Hovered",
+            "target": "Folder 1 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 1 Indentation Guide Color",
+            "target": "Folder 1 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 2",
+            "target": "Folder 2"
+        },
+        {
+            "type": "title",
+            "source": "Folder 2 Text Color",
+            "target": "Folder 2 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 2 Collapse Indicator Color",
+            "target": "Folder 2 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 2 Background Color",
+            "target": "Folder 2 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 2 Background Color when Hovered",
+            "target": "Folder 2 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 2 Indentation Guide Color",
+            "target": "Folder 2 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 3",
+            "target": "Folder 3"
+        },
+        {
+            "type": "title",
+            "source": "Folder 3 Text Color",
+            "target": "Folder 3 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 3 Collapse Indicator Color",
+            "target": "Folder 3 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 3 Background Color",
+            "target": "Folder 3 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 3 Background Color when Hovered",
+            "target": "Folder 3 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 3 Indentation Guide Color",
+            "target": "Folder 3 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 4",
+            "target": "Folder 4"
+        },
+        {
+            "type": "title",
+            "source": "Folder 4 Text Color",
+            "target": "Folder 4 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 4 Collapse Indicator Color",
+            "target": "Folder 4 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 4 Background Color",
+            "target": "Folder 4 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 4 Background Color when Hovered",
+            "target": "Folder 4 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 4 Indentation Guide Color",
+            "target": "Folder 4 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 5",
+            "target": "Folder 5"
+        },
+        {
+            "type": "title",
+            "source": "Folder 5 Text Color",
+            "target": "Folder 5 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 5 Collapse Indicator Color",
+            "target": "Folder 5 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 5 Background Color",
+            "target": "Folder 5 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 5 Background Color when Hovered",
+            "target": "Folder 5 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 5 Indentation Guide Color",
+            "target": "Folder 5 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 6",
+            "target": "Folder 6"
+        },
+        {
+            "type": "title",
+            "source": "Folder 6 Text Color",
+            "target": "Folder 6 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 6 Collapse Indicator Color",
+            "target": "Folder 6 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 6 Background Color",
+            "target": "Folder 6 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 6 Background Color when Hovered",
+            "target": "Folder 6 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 6 Indentation Guide Color",
+            "target": "Folder 6 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 7",
+            "target": "Folder 7"
+        },
+        {
+            "type": "title",
+            "source": "Folder 7 Text Color",
+            "target": "Folder 7 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 7 Collapse Indicator Color",
+            "target": "Folder 7 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 7 Background Color",
+            "target": "Folder 7 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 7 Background Color when Hovered",
+            "target": "Folder 7 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 7 Indentation Guide Color",
+            "target": "Folder 7 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 8",
+            "target": "Folder 8"
+        },
+        {
+            "type": "title",
+            "source": "Folder 8 Text Color",
+            "target": "Folder 8 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 8 Collapse Indicator Color",
+            "target": "Folder 8 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 8 Background Color",
+            "target": "Folder 8 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 8 Background Color when Hovered",
+            "target": "Folder 8 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 8 Indentation Guide Color",
+            "target": "Folder 8 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 9",
+            "target": "Folder 9"
+        },
+        {
+            "type": "title",
+            "source": "Folder 9 Text Color",
+            "target": "Folder 9 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 9 Collapse Indicator Color",
+            "target": "Folder 9 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 9 Background Color",
+            "target": "Folder 9 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 9 Background Color when Hovered",
+            "target": "Folder 9 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 9 Indentation Guide Color",
+            "target": "Folder 9 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 10",
+            "target": "Folder 10"
+        },
+        {
+            "type": "title",
+            "source": "Folder 10 Text Color",
+            "target": "Folder 10 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 10 Collapse Indicator Color",
+            "target": "Folder 10 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 10 Background Color",
+            "target": "Folder 10 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 10 Background Color when Hovered",
+            "target": "Folder 10 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 10 Indentation Guide Color",
+            "target": "Folder 10 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 11",
+            "target": "Folder 11"
+        },
+        {
+            "type": "title",
+            "source": "Folder 11 Text Color",
+            "target": "Folder 11 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 11 Collapse Indicator Color",
+            "target": "Folder 11 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 11 Background Color",
+            "target": "Folder 11 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 11 Background Color when Hovered",
+            "target": "Folder 11 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 11 Indentation Guide Color",
+            "target": "Folder 11 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 12",
+            "target": "Folder 12"
+        },
+        {
+            "type": "title",
+            "source": "Folder 12 Text Color",
+            "target": "Folder 12 Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 12 Collapse Indicator Color",
+            "target": "Folder 12 Collapse Indicator Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 12 Background Color",
+            "target": "Folder 12 Background Color"
+        },
+        {
+            "type": "title",
+            "source": "Folder 12 Background Color when Hovered",
+            "target": "Folder 12 Background Color when Hovered"
+        },
+        {
+            "type": "title",
+            "source": "Folder 12 Indentation Guide Color",
+            "target": "Folder 12 Indentation Guide Color"
+        },
+        {
+            "type": "title",
+            "source": "Bookmarks Folders",
+            "target": "Bookmarks Folders"
+        },
+        {
+            "type": "title",
+            "source": "Custom Bookmarks Folders",
+            "target": "Custom Bookmarks Folders"
+        },
+        {
+            "type": "description",
+            "source": "By default, File Explorer and Bookmarks share the same colors when the colorful folders toggles are turned on. If you'd like a different color for the Bookmarks folders, toggle this on and set your preferred colors below. Just like File Explorer, customization goes up to 12 folders and cycles through them.",
+            "target": "By default, File Explorer and Bookmarks share the same colors when the colorful folders toggles are turned on. If you'd like a different color for the Bookmarks folders, toggle this on and set your preferred colors below. Just like File Explorer, customization goes up to 12 folders and cycles through them."
+        },
+        {
+            "type": "title",
+            "source": "Graph",
+            "target": "Graph"
+        },
+        {
+            "type": "title",
+            "source": "Resolved Note Node Color",
+            "target": "Resolved Note Node Color"
+        },
+        {
+            "type": "description",
+            "source": "Color of existing notes",
+            "target": "Color of existing notes"
+        },
+        {
+            "type": "title",
+            "source": "Unresolved Note Node Color",
+            "target": "Unresolved Note Node Color"
+        },
+        {
+            "type": "description",
+            "source": "Color of notes that don't exist (unresolved backlinks)",
+            "target": "Color of notes that don't exist (unresolved backlinks)"
+        },
+        {
+            "type": "title",
+            "source": "Unresolved Note Node Opacity",
+            "target": "Unresolved Note Node Opacity"
+        },
+        {
+            "type": "description",
+            "source": "Opacity of nodes that don't exist (unresolved backlinks). Use a number that is less than or equal to 1, but more than or equal to 0.",
+            "target": "Opacity of nodes that don't exist (unresolved backlinks). Use a number that is less than or equal to 1, but more than or equal to 0."
+        },
+        {
+            "type": "title",
+            "source": "Tag Node Color",
+            "target": "Tag Node Color"
+        },
+        {
+            "type": "title",
+            "source": "Attachment Node Color",
+            "target": "Attachment Node Color"
+        },
+        {
+            "type": "title",
+            "source": "Active File Node Color",
+            "target": "Active File Node Color"
+        },
+        {
+            "type": "title",
+            "source": "Hovered Node Color",
+            "target": "Hovered Node Color"
+        },
+        {
+            "type": "title",
+            "source": "Hovered Node Line Color",
+            "target": "Hovered Node Line Color"
+        },
+        {
+            "type": "title",
+            "source": "Text Color",
+            "target": "Text Color"
+        },
+        {
+            "type": "title",
+            "source": "Line Color",
+            "target": "Line Color"
+        },
+        {
+            "type": "title",
+            "source": "Arrow Color",
+            "target": "Arrow Color"
+        },
+        {
+            "type": "title",
+            "source": "Advanced",
+            "target": "Advanced"
+        },
+        {
+            "type": "description",
+            "source": "🚧 Coming soon!",
+            "target": "🚧 Coming soon!"
+        },
+        {
+            "type": "title",
+            "source": "Support Primary's Development",
+            "target": "Support Primary's Development"
+        },
+        {
+            "type": "title",
+            "source": "💗 Make a Donation on Ko-fi",
+            "target": "💗 Make a Donation on Ko-fi"
+        },
+        {
+            "type": "description",
+            "source": "Support development by subscribing monthly or making a one-time donation at [Primary's Ko-fi Page](https://ko-fi.com/ceciliamay).",
+            "target": "Support development by subscribing monthly or making a one-time donation at [Primary's Ko-fi Page](https://ko-fi.com/ceciliamay)."
+        },
+        {
+            "type": "title",
+            "source": "⭐ Star the Theme on Github",
+            "target": "⭐ Star the Theme on Github"
+        },
+        {
+            "type": "description",
+            "source": "Visit [Primary's Github Page](https://git.new/primary/obsidian) and consider starring the theme to show your appreciation!",
+            "target": "Visit [Primary's Github Page](https://git.new/primary/obsidian) and consider starring the theme to show your appreciation!"
+        },
+        {
+            "type": "title",
+            "source": "🐛 Submit an Issue or Feature Request!",
+            "target": "🐛 Submit an Issue or Feature Request!"
+        },
+        {
+            "type": "description",
+            "source": "Visit [Primary's Github Issue Page](https://git.new/primary/obsidian) to submit an issue or feature request. <br> No Github account? Send me a message through [Twitter](https://x.com/ceciliamay_) or directly via [Email](mailto:contact.ceciliamay@gmail.com)",
+            "target": "Visit [Primary's Github Issue Page](https://git.new/primary/obsidian) to submit an issue or feature request. <br> No Github account? Send me a message through [Twitter](https://x.com/ceciliamay_) or directly via [Email](mailto:contact.ceciliamay@gmail.com)"
+        }
+    ]
+}
